@@ -1,25 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 //Initial commit
+//TMDB API key: 8af54b99552c0f86e65bc9d7e6d34fdb
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to  the Netflix-CLONE!</h1>
     </div>
   );
 }
