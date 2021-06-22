@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Row from './Row';
 import requests from "./requests";
+import Banner from "./Banner";
 
 //Initial commit
 //TMDB API key: 8af54b99552c0f86e65bc9d7e6d34fdb
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className="app">
       {/* Nav */}
-      {/* Banner */}
+      <Banner />
         <Row
             title="NETFLIX ORIGINALS"
             fetchUrl={requests.fetchNetflixOriginals}
