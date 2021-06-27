@@ -3,6 +3,7 @@ import './App.css';
 import Row from './Row';
 import requests from "./requests";
 import Banner from "./Banner";
+import Nav from './Nav'
 
 //Initial commit
 //TMDB API key: 8af54b99552c0f86e65bc9d7e6d34fdb
@@ -10,7 +11,7 @@ import Banner from "./Banner";
 function App() {
   return (
     <div className="app">
-      {/* Nav */}
+      <Nav />
       <Banner />
         <Row
             title="NETFLIX ORIGINALS"
