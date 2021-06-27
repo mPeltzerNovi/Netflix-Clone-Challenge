@@ -48,6 +48,7 @@ function Row( {title, fetchUrl, isLargeRow}) { //{props}
     }
 
     console.log(movies);
+    //Basic version finished
 
     return (
         <div className="row">
